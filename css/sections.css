@@ -1,106 +1,179 @@
 /* Style for our header texts
 	* --------------------------------------- */
-	h1{
-		font-size: 5em;
-		font-family: arial,helvetica;
-		color: #fff;
-		margin:0;
-		padding:0;
+	* {
+		margin: 0;
+		padding: 0;
+		font-family: Arial;
 	}
 
-	/* Centered texts in each section
+	h1 {
+		font-size: 1.4em;
+	    text-align: center;
+	    font-family: 'Fjalla One', sans-serif;
+	    font-weight: 400;
+	    text-transform: uppercase;
+	}
+
+	h3 {
+		font-size: 0.9em;
+	    text-align: justify;
+	    font-family: 'Nunito', sans-serif;
+	    font-weight: 400;
+	    width: 80%;
+	    padding: 20px;
+	    margin: auto;
+	}
+
+	@font-face {
+    	font-family: GameofThrones;
+    	src: url('Game_of_Thrones.ttf') format('truetype'); /* TTF file for CSS3 browsers */
+	}
+
+	/* Style sections
 	* --------------------------------------- */
 	.section{
+		background-color: #0012520f;
 		text-align:center;
 		background-size: cover;
-		background-attachment: fixed;
+		background-repeat: no-repeat;
+		padding: 2% 0 0 0;
 	}
 
-	.slide{
-		background-size: cover;
-		background-attachment: fixed;
+	.section img{
+		width: 75%;
+		max-height: 70%;
+		margin: 5px;
 	}
 
 	/* Defining each section background and styles
 	* --------------------------------------- */
 	
-	/*section 0*/
+	/*Home Page*/
 
-	#section0{
+	#Home_page{
+		background-repeat: no-repeat;
+		background-size: auto 100%;
+		background-position: center;
+		background-image: url(../images/gameOfData2.jpg);
+	}
+	
+	/*disclaimer*/
+
+	#disclaimer h1{
+		margin-top: 15%;
+	}
+
+	#disclaimer h3{
+		width: 50%;
+	}
+
+	/*compteur*/
+
+	#compteur{
 		background-image: url(../images/got_blueEye2.jpg);
 		padding: 3% 0 0 0;
 	}
-	#section0 h1{
+	#compteur h1{
 		font-size: 3em;
+		color: white;
+		text-transform: uppercase;
 		margin: 20px;
 		font-weight: bold;
 		text-shadow: 4px 4px 4px #000000;
-		/*top: 50%;
-		transform: translateY(-50%);
-		position: relative;*/
 	}
 
-	/*section 2*/
+	#compteur h2{
+		font-size: 1.7em;
+		color: white;
+		text-transform: uppercase;
+		margin: 320px 0 0 0;
+		font-weight: bold;
+		text-shadow: 4px 4px 4px #000000;
+	}
 
-	#section2{
+	/*houses*/
+
+	#houses{
 		background-image: url(../images/got_houses.jpg);
-		padding: 15% 0 0 0;
+		padding: 10% 0 0 0;
 	}
-	#section2 h1{
+	#houses h1{
+		margin: 27% 0 0 0;
+		background-color: black;
+		font-size: 3em;
 		text-transform: uppercase;
 		font-weight: bold;
-		text-shadow: 4px 4px 4px #000000;
+		text-shadow: 6px 6px 6px #000000;
 	}
 
-	/*section 3*/
+	.housesNames ul {
+	  list-style-type: none;
+	  text-transform: uppercase;
+	  }
 
-	#section3{
-		background-image: url(../images/got_jonSnow.jpg);
-		padding: 15% 0 0 0;
-	}
-	#section3 h1{
-		text-transform: uppercase;
-		font-weight: bold;
-		text-shadow: 4px 4px 4px #000000;
-	}
+	  .housesNames ul li {
+	    display: inline-block;
+	    text-align: center;
+	    font-size: 2.2em;
+	    font-weight: bold;
+	    color: white;
+	    width: 20%;
+	    float: left;
+	    text-shadow: 4px 4px 4px #000000;
+	  }
 
-	/*section 4*/
+	/*stat1*/
 
-	#section4{
-		background-image: url(../images/got_raven.jpg);
-		padding: 15% 0 0 0;
-	}
-	#section4 h1{
-		font-size: 4.5em;
-		text-transform: uppercase;
-		font-weight: bold;
-		text-shadow: 4px 4px 4px #000000;
+	#stat1{
+
 	}
 
-	/*section 5*/
+	/*podium*/
 
-	#section5{
-		background-image: url(../images/got_jonSnow.jpg);
-		padding: 2% 0 0 0;
-	}
-	#section5 h1{
-		color: #000;
-	}
-	#section5 img{
-		height: 65%;
-		margin: 40px;
+	#podium{
+		
 	}
 
-	/*section 6*/
+	/*race*/
 
-	#section6{
-		background-image: url(../images/got_jonSnow.jpg);
-		padding: 2% 0 0 0;
+	#race{
+		
 	}
-	#section6 h1{
-		color: #000;
+
+	/*battleStrat*/
+
+	#battleStrat img{
+		width: 50%;
+		padding: 2%;
 	}
-	#section6 img{
-		height: 65%;
-		margin: 40px;
+
+	/*stat2*/
+
+	#stat2{
+		
+	}
+
+	/*screen*/
+
+	#screen{
+		
+	}
+
+	/*cemetery*/
+
+	#cemetery{
+
+	}
+
+	/*survivants*/
+
+	#survivants{
+
+	}
+
+	/*conclusion*/
+
+	#conclusion img{
+		width: 50%;
+		padding: 2%;
 	}

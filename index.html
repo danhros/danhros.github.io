@@ -8,15 +8,19 @@
 		<meta name="Resource-type" content="Document" />
 		
 		<title>Game of Data</title>
+		<link rel="icon" href="favicon.ico" />
+		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 		
 		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-		<link rel="stylesheet" type="text/css" href="css/style_fullpage.css" />
 		<link rel="stylesheet" type="text/css" href="css/countdown.css" />
 		<link rel="stylesheet" type="text/css" href="css/sections.css" />
 		<link rel="stylesheet" type="text/css" href="css/slides.css" />
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 		
-		<script type="text/javascript" src="js/countdown.js"></script>	
+		<script type="text/javascript" src="js/countdown.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 		<script type="text/javascript" src="js/jquery.fullPage.js"></script>
@@ -24,17 +28,148 @@
 			$(document).ready(function() {
 				$('#fullpage').fullpage({
 					verticalCentered: false,
-					css3:false
+					css3:false,
+					navigation: true
 				});
 			});
 		</script>
-	</head>
+
+    </head>
 
 	<body>
 		<div id="fullpage">
-			<div class="section " id="section0">
+
+			<!-- Intro -->
+
+			<div class="section" id="Home_page">
+				<!-- <h1>The night is dark and full of data</h1>
+				<br><br>
+				<h2>This is a Data visualization project about game of thrones</h2>
+				<br><br>
+				<h2>Scroll down if you want to know more about it</h2> -->
+			</div>
+
+			<div class="section" id="disclaimer">
+				<h1>Disclaimer</h1>
+				<h3>This article is the result of an in-depth analysis of the successful TV show Game of thrones. We used unofficial data from HBO collected by an IMDB user who manually retrieved it. We have done our best to be independent of all intuitions or emotions in the interpretation of the data in order to present the most relevant vision of the future of this TV show.</h3>
+			</div>
+			
+			<!-- <div class="section" id="houses">
+				<div class="housesNames">
+				    <ul>
+				    	<li>Stark</li>
+				        <li>Baratheon</li>
+				        <li>Targaryen</li>
+				        <li>Lannister</li>
+				        <li>Greyjoy</li>
+				    </ul>
+				</div>
+				<h1>Keep Scrolling Down to Know<br>Which House Will Win</h1>
+			</div> -->
+
+			<!-- Première analyse -->
+
+			<div class="section" id="stat1">
+				<h1>Stat des batailles</h1>
+				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+			</div>
+			
+			<div class="section" id="podium">
+				<h1>Best Commander</h1>
+				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+				<img src="images/podium.svg" >
+			</div>
+
+			<div class="section" id="race">
+				<h1>Best House</h1>
+				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+				<img src="images/race.svg" >
+			</div>
+
+			<div class="section" id="battleStrat">
+				<h1>Battle Strategies</h1>
+				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+				<img src="images/battleStrat.svg" >
+			</div>
+			
+			<!-- Deuxième analyse -->
+
+			<div class="section" id="stat2">
+				<h1>Stat screening time and ML</h1>
+				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+			</div>
+
+			<div class="section" id="screen">
+				<h1>Screening time of the remaining characters</h1>
+				<h3>This visualization is an analysis of the entenne time of the main characters throughout the 7 seasons. This study was intended to rank the main characters in this series thanks to the total number of minutes on the air but also to see their evolution season after season following the highlights of the story.Three characters seem to stand out: Jon Snow, Tyrion Lannister and Daenerys Targaryen.</h3>
+				<img src="images/screen.svg" >
+			</div>
+			
+			<div class="section" id="cemetery">
+				<h1>cemetery</h1>
+				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+				<img src="images/cemetery.svg" >
+			</div>
+
+			<div class="section" id="survivants">
+				<h1>Survivors</h1>
+				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+				<img src="images/survivants.svg">
+			</div>
+
+			<!-- Conclusion -->
+
+			<div class="section" id="conclusion">
+				<h1>Conclusion</h1>
+				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+				<img src="images/nightKing.gif">
+			</div>
+
+			<!-- Compteur -->
+
+			<div class="section " id="compteur">
 				<div>
-					<h1><font style="text-transform: uppercase;">Don't want to wait that long to discover<br/>who'll be sitting on the iron throne?</font></h1>
+					<h1>The Next episode will be released in:</h1>
 				</div>
 				<div>
 					<p id="days"></p>
@@ -50,9 +185,15 @@
 				        <li>SECS</li>
 				    </ul>
 				</div>
+				<div>
+					<h2>Don't want to wait that long<br>to discover who'll be sitting on the iron throne?</h2>
+				</div>
 			</div>
-			
-			<!-- <div class="section" id="section1">
+
+		</div>
+	</body>
+
+	<!-- <div class="section" id="section1">
 				<div class="slide" id="slide1">
 					<h1><font style="text-transform: uppercase;">Slide 1</font></h1>
 				</div>
@@ -69,30 +210,5 @@
 					<h1>Slide 4</h1>
 				</div>
 			</div> -->
-			
-			<div class="section" id="section2">
-				<h1>What House Will Win?</h1>
-			</div>
 
-			<div class="section" id="section3">
-				<h1>You Know Nothing</h1>
-			</div>
-			
-			<div class="section" id="section4">
-				<h1>In Got we trust<br>all others must bring data</h1>
-			</div>
-			
-			<!-- <div class="section" id="section5">
-				<h1>Section 4</h1>
-				<img src="images/dog.jpg">
-				<img src="images/dog.jpg">
-			</div>
-			
-			<div class="section" id="section6">
-				<h1>Section 5</h1>
-				<img src="images/dog.jpg">
-				<img src="images/dog.jpg">
-			</div> -->
-		</div>
-	</body>
 </html>
